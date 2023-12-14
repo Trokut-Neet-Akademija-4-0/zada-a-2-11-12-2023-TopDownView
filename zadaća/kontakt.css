@@ -1,0 +1,80 @@
+main {
+    display: flex;
+}
+.left, .right {
+    /* border: 1px dashed black; */
+    width: 50%;
+    padding: 1em;
+}
+/* .kontakt {
+    background-color: rgb(251, 196, 196);
+} */
+.kontakt h2 {
+    font-family: Roboto Bold;
+}
+::placeholder {
+    font-family: Nunito Regular;
+}
+.kontakt form p input[type=text], .kontakt form p input[type=email], .kontakt form p textarea[id=kontakt] {
+    padding: 8px;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: black;
+}
+.kontakt form p input[type=text]:focus, .kontakt form p input[type=email]:focus, .kontakt form p textarea[id=kontakt]:focus {
+    outline: none !important;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+.kontakt form p button {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    font-family: Nunito Bold;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+/* .info {
+    background-color: rgb(203, 255, 203);
+} */
+.info h2 {
+    font-family: Roboto Bold;
+}
+.info ul {
+    font-family: Nunito Regular;
+    list-style-position: inside;
+    padding: 0;
+}
+.info-list-1 li a:link {
+    text-decoration: none;
+    color: black;
+}
+.info-list-1 li a:visited {
+    color: black;
+}
+.info-list-1 li a:hover {
+    text-decoration: underline;
+}
+.info-list-2 li:nth-child(1) {
+    list-style-image: url(ikone/facebook.svg);
+}
+.info-list-2 li:nth-child(2) {
+    list-style-image: url(ikone/youtube.svg);
+}
+.info-list-2 li:nth-child(3) {
+    list-style-image: url(ikone/instagram.svg);
+}
+.info-list-2 li:nth-child(4) {
+    list-style-image: url(ikone/tiktok.svg);
+}
+.info-list-2 li a:link {
+    text-decoration: none;
+    color: black;
+}
+.info-list-2 li a:visited {
+    color: black;
+}
+.info-list-2 li a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,80 @@
+.top, .bottom {
+    /* border: 1px dashed black; */
+    padding: 1em;
+}
+.top h2, .bottom h2 {
+    font-family: Roboto Bold;
+}
+.projekti {
+    /* background-color: rgb(251, 196, 196); */
+    display: flex;
+    justify-content: space-between;
+    font-family: Roboto Bold;
+}
+/* .usluge {
+    background-color: rgb(203, 255, 203);
+} */
+.galerija-projekti {
+    border: 2px solid black;
+    width: 30%;
+    height: 320px;
+}
+.galerija-projekti_top {
+    /* background-color: aquamarine; */
+    display: flex;
+    height: 75%;
+}
+.galerija-projekti_bottom {
+    /* background-color: bisque; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 25%;
+}
+.galerija-projekti_top a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.galerija-projekti_top a img {
+    width: 65%;
+    margin: auto;
+    filter: contrast(0.5);
+}
+.galerija-projekti_top a img:hover {
+    filter: contrast(1);
+}
+.galerija-usluge {
+    border: 2px solid black;
+    width: 100%;
+    display: flex;
+    margin-bottom: 2em;
+}
+.galerija-usluge h4 {
+    font-family: Roboto Bold;
+}
+.galerija-usluge p {
+    font-family: Nunito Regular;
+}   
+.galerija-usluge button {
+    font-family: Nunito Bold;
+    cursor: pointer;
+}
+.galerija-usluge_left, .galerija-usluge_right {
+    /* border: 1px dashed black; */
+    width: 50%;
+}
+.galerija-usluge_left {
+    padding: 1em;
+}
+.galerija-usluge_left button {
+    padding: 8px 16px;
+    border: 2px solid black;
+}
+.galerija-usluge_right {
+    display: flex;
+}
+.galerija-usluge_right img {
+    width: 69%;
+    margin: auto;
+}

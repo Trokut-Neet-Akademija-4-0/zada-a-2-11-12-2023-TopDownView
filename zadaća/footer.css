@@ -1,0 +1,30 @@
+footer {
+    height: 110px;
+    display: flex;
+    justify-content: center;
+}
+footer .social-media {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+footer .social-media img {
+    filter: contrast(0.5);
+}
+footer .social-media img:hover {
+    filter: contrast(1);
+}
+/* #facebook {
+    background-color: rgb(255, 195, 195);
+}
+#youtube {
+    background-color: rgb(204, 255, 204);
+}
+#instagram {
+    background-color: rgb(206, 206, 255);
+}
+#tiktok {
+    background-color: rgb(255, 255, 212);
+} */
